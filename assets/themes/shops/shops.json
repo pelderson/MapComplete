@@ -1,278 +1,56 @@
 {
   "id": "shops",
   "title": {
-    "en": "Open Shop Map",
-    "fr": "Carte des magasins"
+    "en": "Shops",
+    "fr": "Carte des magasins",
+    "ja": "オープン ショップ マップ",
+    "zh_Hant": "商店",
+    "ru": "Открытая карта магазинов",
+    "de": "Geschäfte",
+    "it": "Mappa dei negozi",
+    "nb_NO": "Kart over åpne butikker",
+    "hu": "Bolttérkép",
+    "nl": "Winkels",
+    "ca": "Mapa obert de botigues",
+    "da": "Åbn butikskort",
+    "es": "Mapa Abierto de Tiendas",
+    "cs": "Open Shop Map"
   },
   "shortDescription": {
     "en": "An editable map with basic shop information",
-    "fr": "Carte modifiable affichant les informations de base des magasins"
+    "fr": "Carte modifiable affichant les informations de base des magasins",
+    "ja": "基本的なショップ情報を含む編集可能なマップ",
+    "de": "Eine bearbeitbare Karte mit grundlegenden Geschäftsinformationen",
+    "it": "Una cartina modificabile con informazioni di base dei negozi",
+    "hu": "Szerkeszthető térkép üzletek alapvető adataival",
+    "es": "Un mapa editable con información básica sobre tiendas",
+    "nl": "Een bewerkbare kaart met simpele informatie over winkels",
+    "da": "Et redigerbart kort med grundlæggende butiksoplysninger",
+    "ca": "Un mapa editable amb informació bàsica sobre botigues",
+    "cs": "Upravitelná mapa se základními informacemi o obchodech",
+    "zh_Hant": "有基本商家資訊的可編輯性的地圖"
   },
   "description": {
     "en": "On this map, one can mark basic information about shops, add opening hours and phone numbers",
-    "fr": "Sur cette carte, vous pouvez ajouter des informations sur les magasins, horaires d'ouverture et numéro de téléphone"
+    "fr": "Sur cette carte, vous pouvez ajouter des informations sur les magasins, leurs horaires d'ouverture et leurs numéros de téléphone",
+    "ja": "この地図には店の基本情報を記入したり営業時間や電話番号を追加することができます",
+    "zh_Hant": "這份地圖上，你可以標記商家基本資訊，新增營業時間以及聯絡電話",
+    "de": "Auf dieser Karte kann man grundlegende Informationen über Geschäfte markieren, Öffnungszeiten und Telefonnummern hinzufügen",
+    "it": "In questa cartina è possibile aggiungere informazioni di base di un negozio, orari di apertura e numeri di telefono",
+    "hu": "Ezen a térképen az üzletek alapvető adatait lehet megadni, például nyitvatartási időt és telefonszámokat.",
+    "es": "En este mapa, se puede marcar información básica sobre tiendas, añadir horarios y números de teléfono",
+    "nl": "Op deze kaart kan men algemene informatie over winkels toevoegen, evenals openingsuren en telefoonnummers",
+    "da": "På dette kort kan man markere grundlæggende informationer om butikker, tilføje åbningstider og telefonnumre",
+    "ca": "A aquest mapa, es pot marcar informació bàsica sobre botigues, afegir horaris i números de telèfon",
+    "cs": "Na této mapě můžete označit základní informace o obchodech, přidat otevírací dobu a telefonní čísla"
   },
-  "language": [
-    "en",
-    "fr"
-  ],
-  "maintainer": "MapComplete",
   "icon": "./assets/themes/shops/shop.svg",
-  "version": "0",
   "startLat": 0,
   "startLon": 0,
   "startZoom": 1,
-  "widenFactor": 0.05,
-  "socialImage": "",
+  "widenFactor": 3,
   "layers": [
-    {
-      "id": "shops",
-      "name": {
-        "en": "Shop",
-        "fr": "Magasin"
-      },
-      "minzoom": 16,
-      "source": {
-        "osmTags": {
-          "and": [
-            "shop~*"
-          ]
-        }
-      },
-      "title": {
-        "render": {
-          "en": "Shop",
-          "fr": "Magasin"
-        },
-        "mappings": [
-          {
-            "if": {
-              "and": [
-                "name~*"
-              ]
-            },
-            "then": {
-              "en": "{name}",
-              "fr": "{name}"
-            }
-          },
-          {
-            "if": {
-              "and": [
-                "shop!~yes"
-              ]
-            },
-            "then": {
-              "en": "{shop}",
-              "fr": "{shop}"
-            }
-          }
-        ]
-      },
-      "description": {
-        "en": "A shop",
-        "fr": "Un magasin"
-      },
-      "tagRenderings": [
-        "images",
-        {
-          "question": {
-            "en": "What is the name of this shop?",
-            "fr": "Qu'est-ce que le nom de ce magasin?"
-          },
-          "render": "This shop is called <i>{name}</i>",
-          "freeform": {
-            "key": "name"
-          }
-        },
-        {
-          "render": {
-            "en": "This shop sells {shop}",
-            "fr": "Ce magasin vends {shop}"
-          },
-          "question": {
-            "en": "What does this shop sell?",
-            "fr": "Que vends ce magasin ?"
-          },
-          "freeform": {
-            "key": "shop"
-          },
-          "mappings": [
-            {
-              "if": {
-                "and": [
-                  "shop=convenience"
-                ]
-              },
-              "then": {
-                "en": "Convenience store",
-                "fr": "Épicerie/superette"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "shop=supermarket"
-                ]
-              },
-              "then": {
-                "en": "Supermarket",
-                "fr": "Supermarché"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "shop=clothes"
-                ]
-              },
-              "then": {
-                "en": "Clothing store",
-                "fr": "Magasin de vêtements"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "shop=hairdresser"
-                ]
-              },
-              "then": {
-                "en": "Hairdresser",
-                "fr": "Coiffeur"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "shop=bakery"
-                ]
-              },
-              "then": {
-                "en": "Bakery",
-                "fr": "Boulangerie"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "shop=car_repair"
-                ]
-              },
-              "then": {
-                "en": "Car repair (garage)",
-                "fr": "Garagiste"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "shop=car"
-                ]
-              },
-              "then": {
-                "en": "Car dealer",
-                "fr": "Concessionnaire"
-              }
-            }
-          ]
-        },
-        {
-          "render": {
-            "en": "<a href='tel:{phone}'>{phone}</a>",
-            "fr": "<a href='tel:{phone}'>{phone}</a>"
-          },
-          "question": {
-            "en": "What is the phone number?",
-            "fr": "Quel est le numéro de téléphone ?"
-          },
-          "freeform": {
-            "key": "phone",
-            "type": "phone"
-          }
-        },
-        {
-          "render": {
-            "en": "<a href='{website}'>{website}</a>",
-            "fr": "<a href='{website}'>{website}</a>"
-          },
-          "question": {
-            "en": "What is the website of this shop?",
-            "fr": "Quel est le site internet de ce magasin ?"
-          },
-          "freeform": {
-            "key": "website",
-            "type": "url"
-          }
-        },
-        {
-          "render": {
-            "en": "<a href='mailto:{email}'>{email}</a>",
-            "fr": "<a href='mailto:{email}'>{email}</a>"
-          },
-          "question": {
-            "en": "What is the email address of this shop?",
-            "fr": "Quel est l'adresse mail de ce magasin ?"
-          },
-          "freeform": {
-            "key": "email",
-            "type": "email"
-          }
-        },
-        {
-          "render": {
-            "en": "{opening_hours_table(opening_hours)}",
-            "fr": "{opening_hours_table(opening_hours)}"
-          },
-          "question": {
-            "en": "What are the opening hours of this shop?",
-            "fr": "Quels sont les horaires d'ouverture de ce magasin ?"
-          },
-          "freeform": {
-            "key": "opening_hours",
-            "type": "opening_hours"
-          }
-        },
-        "questions",
-        "reviews"
-      ],
-      "hideUnderlayingFeaturesMinPercentage": 0,
-      "icon": {
-        "render": "./assets/themes/shops/shop.svg"
-      },
-      "iconOverlays": [
-        {
-          "if": "opening_hours~*",
-          "then": "isOpen",
-          "badge": true
-        }
-      ],
-      "width": {
-        "render": "8"
-      },
-      "iconSize": {
-        "render": "40,40,center"
-      },
-      "color": {
-        "render": "#00f"
-      },
-      "presets": [
-        {
-          "tags": [
-            "shop=yes"
-          ],
-          "title": {
-            "en": "Shop",
-            "fr": "Magasin"
-          },
-          "description": {
-            "en": "Add a new shop",
-            "fr": "Ajouter un nouveau magasin"
-          }
-        }
-      ],
-      "wayHandling": 2
-    }
-  ],
-  "roamingRenderings": []
+    "shops",
+    "pharmacy"
+  ]
 }

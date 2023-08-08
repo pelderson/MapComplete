@@ -1,0 +1,36 @@
+{
+    "centerMessage": {
+        "loadingData": "加载数据中……",
+        "ready": "完成！",
+        "retrying": "加载数据失败。将在 {count} 秒后重试……",
+        "zoomIn": "放大以查看或编辑数据"
+    },
+    "communityIndex": {
+        "available": "这个社区说 {native}",
+        "intro": "与其他人取得联系，了解他们，向他们学习……",
+        "notAvailable": "这个社区不会说 {native}",
+        "title": "社区主页"
+    },
+    "delete": {
+        "cancel": "取消",
+        "cannotBeDeleted": "此功能无法被删除",
+        "delete": "删除",
+        "explanations": {
+            "hardDelete": "此功能在 OpenStreetMap 中将被删除。它可以由有经验的贡献者进行恢复",
+            "retagNoOtherThemes": "此功能将被重新分类并从此应用中隐藏"
+        },
+        "notEnoughExperience": "这个点由其他人创建。",
+        "onlyEditedByLoggedInUser": "这个点仅被您所编辑，您可以安全的删除它。",
+        "useSomethingElse": "使用其他OpenStreetMap编辑器来删除它",
+        "whyDelete": "为什么这个点需要被删除？"
+    },
+    "favourite": {
+        "reload": "重新加载数据"
+    },
+    "general": {
+        "add": {
+            "disableFilters": "禁用所有过滤器",
+            "hasBeenImported": "这个点已经被导入过了"
+        }
+    }
+}

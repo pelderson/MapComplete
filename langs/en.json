@@ -1,0 +1,656 @@
+{
+    "advanced": {
+        "title": "Advanced features"
+    },
+    "centerMessage": {
+        "allFilteredAway": "No feature in view meets all filters",
+        "loadingData": "Loading data…",
+        "noData": "There are no relevant features in the current view",
+        "ready": "Done!",
+        "retrying": "Loading data failed. Trying again in {count} seconds…",
+        "zoomIn": "Zoom in to view or edit the data"
+    },
+    "communityIndex": {
+        "available": "This community speaks {native}",
+        "intro": "Get in touch with other people to get to know them, learn from them, …",
+        "notAvailable": "This community does not speak {native}",
+        "title": "Get in touch with others"
+    },
+    "delete": {
+        "cancel": "Cancel",
+        "cannotBeDeleted": "This feature can not be deleted",
+        "delete": "Delete",
+        "explanations": {
+            "hardDelete": "This feature will be deleted in OpenStreetMap. It can be recovered by an experienced contributor",
+            "retagNoOtherThemes": "This feature will be reclassified and hidden from this application",
+            "retagOtherThemes": "This feature will be retagged and visible in {otherThemes}",
+            "selectReason": "Please, select why this feature should be deleted",
+            "softDelete": "This feature will be updated and hidden from this application. <span class='subtle'>{reason}</span>"
+        },
+        "isDeleted": "This feature is deleted",
+        "isntAPoint": "Only nodes can be deleted, the selected feature is a way, area or relation.",
+        "loading": "Inspecting properties to check if this feature can be deleted.",
+        "loginToDelete": "You must be logged in to delete a feature",
+        "notEnoughExperience": "This feature was made by someone else.",
+        "onlyEditedByLoggedInUser": "This feature has only been edited by yourself, you can safely delete it.",
+        "partOfOthers": "This node is part of some way or relation and can not be deleted directly.",
+        "readMessages": "You have unread messages. Read these before deleting a feature - someone might have feedback",
+        "reasons": {
+            "disused": "This feature is disused or removed",
+            "duplicate": "This feature is a duplicate of another feature",
+            "notFound": "This feature couldn't be found",
+            "test": "This was a testing feature - the feature was never actually there"
+        },
+        "safeDelete": "This feature can be safely deleted.",
+        "useSomethingElse": "Use another OpenStreetMap-editor to delete it instead",
+        "whyDelete": "Why should this feature be deleted?"
+    },
+    "favourite": {
+        "loginNeeded": "<h3>Log in</h3>A personal layout is only available for OpenStreetMap users",
+        "panelIntro": "<h3>Your personal theme</h3>Activate your favourite layers from all the official themes",
+        "reload": "Reload the data"
+    },
+    "flyer": {
+        "aerial": "This map uses a different background, namely aerial imagery by Agentschap Informatie Vlaanderen",
+        "callToAction": "Test it on mapcomplete.osm.be",
+        "cyclofix": "Bicycle pumps, repair stations, drinking water and cycle shops are on CycloFix",
+        "description": "An A4-landscape flyer to promote MapComplete",
+        "editing": {
+            "ex": "A simplified example of what this looks like for a nature reserve is shown below.",
+            "intro": "The user is greeted by a map with features. Upon selecting one, the information about that feature is shown.",
+            "title": "What does the interface look like?"
+        },
+        "examples": "There are many thematic maps available of which a few are shown here.\n\nThere are many more thematic maps online: about healthcare, indoor navigation, wheelchair accessibility, waste facilities, public bookcases, pedestrian crossings with a rainbow-painting,… Discover them all on mapcomplete.osm.be",
+        "fakeui": {
+            "add_images": "Add images with a few clicks",
+            "attributes": "Shows attributes in a friendly way",
+            "edit": "Wrong or outdated info? The edit button is right there.",
+            "question": "If an attribute is not yet known, MapComplete shows a question",
+            "see_images": "Shows images from previous contributors, Wikipedia, Mapillary, …",
+            "wikipedia": "Linked Wikipedia articles are shown"
+        },
+        "frontParagraph": "MapComplete is an easy to use web application to collect geodata in OpenStreetMap, enabling collecting and managing relevant data in an open, crowdsourced and reusable way.\n\nNew categories and attributes can be added upon request.",
+        "lines_too": "Lines and polygons are shown too. Attributes and images can be added and updated on those objects as well.",
+        "mapcomplete": {
+            "customize": "MapComplete can be tailored to your needs, with new map layers, new functionalities or styled with your organisations colours and font.\nWe also have experience with starting campaigns to crowdsource geodata.\nContact pietervdvn@posteo.net for a quote.",
+            "intro": "MapComplete is a website which has {mapCount} interactive maps. Every single map allows to add or update information. It has many features:",
+            "li0": "Show where POI are",
+            "li1": "Add new points and update info on existing ones",
+            "li2": "Add contact information and opening hours easily",
+            "li3": "Can be placed in other websites as iFrame",
+            "li4": "Embedded within the OpenStreetMap-ecosystem, which has many tools available",
+            "li5": "Functionality to import existing datasets",
+            "li6": "Many advanced features, such as tree detection and advanced input methods",
+            "li7": "Copylefted libre software (GPL licensed) and gratis to use",
+            "title": "What is MapComplete?"
+        },
+        "onwheels": "Indoor maps for wheelchair users are available as well.",
+        "osm": "OpenStreetMap is an online map which can be edited and reused by anyone for any purpose as long as attribution is given and the data is kept open.\n\nIt is the biggest geospatial database in the world and is reused by thousands of applications and websites.",
+        "tagline": "Collect geodata with OpenStreetMap",
+        "title": "MapComplete.osm.be",
+        "toerisme_vlaanderen": "For joint project with Visit Flanders, 'Pin your point' was created. Over 160 contributors added a few thousand benches and picnictables and spotted 100 charging station for bicycles.",
+        "whatIsOsm": "What is OpenStreetMap?"
+    },
+    "general": {
+        "404": "This page does not exist",
+        "about": "Easily edit and add OpenStreetMap for a certain theme",
+        "aboutMapComplete": {
+            "intro": "Use MapComplete to add OpenStreetMap info on a <b>single theme.</b> Answer questions, and within minutes your contributions are available everywhere. In most themes you can add pictures or even leave a review. The <b>theme maintainer</b> defines elements, questions and languages for it."
+        },
+        "add": {
+            "addNew": "Add {category}",
+            "backToSelect": "Select a different category",
+            "confirmButton": "Add a {category}<br/><div class='alert'>Your addition is visible for everyone</div>",
+            "confirmLocation": "Confirm this location",
+            "confirmTitle": "Add a {title}?",
+            "confirmWarning": "The feature you create here will be <b>visible for everyone</b>. Please, only add things on to the map if they truly exist. A lot of applications use this data.",
+            "disableFilters": "Disable all filters",
+            "disableFiltersExplanation": "Some features might be hidden by a filter",
+            "enableLayer": "Enable layer {name}",
+            "hasBeenImported": "This feature has already been imported",
+            "import": {
+                "hasBeenImported": "This object has been imported",
+                "howToTest": "To test, add <b>test=true</b> or <b>backend=osm-test</b> to the URL. The changeset will be printed in the console. Please open a PR to officialize this theme to actually enable the import button.",
+                "importTags": "The element will receive {tags}",
+                "officialThemesOnly": "The import button is disabled for unofficial themes to prevent accidents",
+                "wrongType": "This feature is not a node or a way and can not be imported",
+                "wrongTypeToConflate": "This feature is not a node or a way and can not be conflated",
+                "zoomInMore": "Zoom in more to import this feature"
+            },
+            "importTags": "The element will receive {tags}",
+            "intro": "You clicked somewhere where no data is known yet.<br/>",
+            "layerNotEnabled": "The layer {layer} is not enabled. Enable this layer to add a feature",
+            "openLayerControl": "Open the layer control box",
+            "pleaseLogin": "Please log in to add a new feature",
+            "presetInfo": "The new POI will have {tags}",
+            "stillLoading": "The data is still loading. Please wait a bit before you add a new feature.",
+            "title": "Add a new feature?",
+            "warnVisibleForEveryone": "Your addition will be visible for everyone",
+            "wrongType": "This feature is not a node or a way and can not be imported",
+            "zoomInFurther": "Zoom in further to add a feature.",
+            "zoomInMore": "Zoom in more to import this feature"
+        },
+        "apply_button": {
+            "appliedOnAnotherObject": "The object {id} will receive {tags}",
+            "isApplied": "The changes are applied"
+        },
+        "attribution": {
+            "attributionBackgroundLayer": "The current background layer is {name}",
+            "attributionBackgroundLayerWithCopyright": "The current background layer is {name}: {copyright}",
+            "attributionContent": "<p>All data is provided by <a href='https://osm.org' target='_blank'>OpenStreetMap</a>, freely reusable under <a href='https://osm.org/copyright' target='_blank'>the Open DataBase License</a>.</p>",
+            "attributionTitle": "Attribution notice",
+            "codeContributionsBy": "MapComplete has been built by {contributors} and <a href='https://github.com/pietervdvn/MapComplete/graphs/contributors' target='_blank'>{hiddenCount} more contributors</a>",
+            "donate": "Support MapComplete financially",
+            "editId": "Open the OpenStreetMap online editor here",
+            "editJosm": "Edit here with JOSM",
+            "followOnMastodon": "Follow MapComplete on Mastodon",
+            "iconAttribution": {
+                "title": "Used icons"
+            },
+            "josmNotOpened": "JOSM could not be reached. Make sure it is opened and remote control is enabled",
+            "josmOpened": "JOSM is opened",
+            "mapContributionsBy": "The current visible data has edits made by {contributors}",
+            "mapContributionsByAndHidden": "The current visible data has edits made by {contributors} and {hiddenCount} more contributors",
+            "mapDataByOsm": "Map data: OpenStreetMap",
+            "mapillaryHelp": "<b>Mapillary</b> is an online service which gathers street-level pictures and offers them under a free license. Contributors are allowed to use these pictures to improve OpenStreetMap",
+            "openIssueTracker": "File a bug",
+            "openMapillary": "Open Mapillary here",
+            "openOsmcha": "See latest edits made with {theme}",
+            "themeBy": "Theme maintained by {author}",
+            "title": "Copyright and attribution",
+            "translatedBy": "MapComplete has been translated by {contributors} and <a href='https://github.com/pietervdvn/MapComplete/graphs/contributors' target='_blank'>{hiddenCount} more contributors</a>"
+        },
+        "back": "Back",
+        "backToIndex": "Go back to the overview with all thematic maps",
+        "backgroundMap": "Select a background layer",
+        "backgroundSwitch": "Switch background",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "customThemeIntro": "<h3>Custom themes</h3>These are previously visited user-generated themes.",
+        "download": {
+            "downloadAsPdf": "Download a PDF of the current map",
+            "downloadAsPdfHelper": "Ideal to print the current map",
+            "downloadAsPng": "Download as image",
+            "downloadAsPngHelper": "Ideal to include in reports",
+            "downloadAsSvg": "Download an SVG of the current map",
+            "downloadAsSvgHelper": "Compatible Inkscape or Adobe Illustrator; will need further processing",
+            "downloadCSV": "Download visible data as CSV",
+            "downloadCSVHelper": "Compatible with LibreOffice Calc, Excel, …",
+            "downloadFeatureAsGeojson": "Download as GeoJSON-file",
+            "downloadFeatureAsGpx": "Download as GPX-file",
+            "downloadGeoJsonHelper": "Compatible with QGIS, ArcGIS, ESRI, …",
+            "downloadGeojson": "Download visible data as GeoJSON",
+            "downloadGpx": "Download as GPX-file",
+            "downloadGpxHelper": "A GPX-file can be used with most navigation devices and applications",
+            "exporting": "Exporting…",
+            "includeMetaData": "Include metadata (last editor, calculated values, …)",
+            "licenseInfo": "<h3>Copyright notice</h3>The provided data is available under ODbL. Reusing it is gratis for any purpose, but <ul><li>the attribution <b>© OpenStreetMap contributors</b> must be shown<li><li>Any change must be published under the same license</li></ul> Please read the full <a href='https://www.openstreetmap.org/copyright' target='_blank'>copyright notice</a> for details.",
+            "noDataLoaded": "No data is loaded yet. Download will be available soon",
+            "pdf": {
+                "current_view_a3": "Export a PDF (A3, portrait) of the current view",
+                "current_view_a4": "Export a PDF (A4, landscape) of the current view"
+            },
+            "title": "Download",
+            "uploadGpx": "Upload your track to OpenStreetMap"
+        },
+        "error": "Something went wrong",
+        "example": "Example",
+        "examples": "Examples",
+        "fewChangesBefore": "Please, answer a few questions of existing features before adding a new feature.",
+        "getStartedLogin": "Log in with OpenStreetMap to get started",
+        "getStartedNewAccount": " or <a href='https://www.openstreetmap.org/user/new' target='_blank'>create a new account</a>",
+        "goToInbox": "Open inbox",
+        "histogram": {
+            "error_loading": "Could not load the histogram"
+        },
+        "layerSelection": {
+            "title": "Select layers",
+            "zoomInToSeeThisLayer": "Zoom in to see this layer"
+        },
+        "levelSelection": {
+            "addNewOnLevel": "Is the new point location on level {level}?",
+            "confirmLevel": "Yes, add {preset} on level {level}"
+        },
+        "loading": "Loading…",
+        "loadingTheme": "Loading {theme}…",
+        "loginFailed": "Logging in into OpenStreetMap failed",
+        "loginFailedOfflineMode": "OpenStreetMap.org is currently not available due to maintenance. Making edits will be possible soon",
+        "loginFailedReadonlyMode": "OpenStreetMap.org is currently in readonly mode due to maintenance. Making edits will be possible soon",
+        "loginFailedUnreachableMode": "OpenStreetMap.org is currently not reachable. Are you connected to the internet or do you block third parties? Try again later",
+        "loginOnlyNeededToEdit": "if you want to make changes",
+        "loginToStart": "Log in to answer this question",
+        "loginWithOpenStreetMap": "Login with OpenStreetMap",
+        "logout": "Log out",
+        "menu": {
+            "aboutMapComplete": "About MapComplete",
+            "filter": "Filter data"
+        },
+        "morescreen": {
+            "createYourOwnTheme": "Create your own MapComplete theme from scratch",
+            "enterToOpen": "Press enter to open theme",
+            "hiddenExplanation": "These themes are only accessible to those with the link. You have discovered {hidden_discovered} of {total_hidden} hidden themes.",
+            "intro": "<h3>More thematic maps?</h3>Do you enjoy collecting geodata? <br/>There are more themes available.",
+            "noMatchingThemes": "No themes matched your search criteria",
+            "noSearch": "Show all themes",
+            "previouslyHiddenTitle": "Previously visited hidden themes",
+            "requestATheme": "If you want a custom-built theme, request it in the issue tracker",
+            "searchForATheme": "Search for a theme",
+            "streetcomplete": "Another, similar application is <a href='https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete' class='underline hover:text-blue-800' class='underline hover:text-blue-800' target='_blank'>StreetComplete</a>."
+        },
+        "nameInlineQuestion": "The name of this {category} is $$$",
+        "next": "Next",
+        "noMatchingMapping": "No entries match your search…",
+        "noNameCategory": "{category} without a name",
+        "noTagsSelected": "No tags selected",
+        "notValid": "Select a valid value to continue",
+        "number": "number",
+        "openStreetMapIntro": "<h3>An Open Map</h3><p>One that everyone can use and edit freely. A single place to store all geo-info. Different, small, incompatible and outdated maps are not needed anywhere.</p><p><b><a href='https://OpenStreetMap.org' target='_blank'>OpenStreetMap</a></b> is not the enemy map. The map data can be used freely (with <a href='https://osm.org/copyright' target='_blank'>attribution and publication of changes to that data</a>). Everyone can add new data and fix errors. This website uses OpenStreetMap. All the data is from there, and your answers and corrections are used all over.</p><p>Many people and apps already use OpenStreetMap: <a href='https://organicmaps.app/' target='_blank'>Organic Maps</a>, <a href='https://osmAnd.net' target='_blank'>OsmAnd</a>, but also the maps at Facebook, Instagram, Apple-maps and Bing-maps are (partly) powered by OpenStreetMap.</p>",
+        "openTheMap": "Open the map",
+        "openTheMapAtGeolocation": "Zoom to your location",
+        "opening_hours": {
+            "closed_permanently": "Closed for an unkown duration",
+            "closed_until": "Closed until {date}",
+            "error_loading": "Error: could not visualize these opening hours.",
+            "loadingCountry": "Determining country…",
+            "not_all_rules_parsed": "These opening hours are complicated. The following rules are ignored in the input element:",
+            "openTill": "till",
+            "open_24_7": "Open around the clock",
+            "open_during_ph": "During a public holiday, this is",
+            "opensAt": "from",
+            "ph_closed": "closed",
+            "ph_not_known": " ",
+            "ph_open": "open",
+            "ph_open_as_usual": "open, as usual"
+        },
+        "osmLinkTooltip": "Browse this object on OpenStreetMap for history and more editing options",
+        "pdf": {
+            "attr": "Map data © OpenStreetMap Contributors, reusable under ODbL",
+            "attrBackground": "Background layer: {background}",
+            "generatedWith": "Generated with MapComplete.osm.be/{layoutid}",
+            "versionInfo": "v{version} - generated on {date}"
+        },
+        "pickLanguage": "Choose a language: ",
+        "poweredByOsm": "Powered by OpenStreetMap",
+        "questionBox": {
+            "answeredMultiple": "You answered {answered} questions",
+            "answeredMultipleSkippedMultiple": "You answered {answered} questions and skipped {skipped} questions",
+            "answeredMultipleSkippedOne": "You answered {answered} questions and skipped one question",
+            "answeredOne": "You answered one question",
+            "answeredOneSkippedMultiple": "You answered one question and skipped {skipped} questions",
+            "answeredOneSkippedOne": "You answered one and skipped one question",
+            "done": "No more questions! Thank you!",
+            "reactivate": "Reactivate skipped questions",
+            "skippedMultiple": "You skipped {skipped} questions",
+            "skippedOne": "You skipped one question"
+        },
+        "questions": {
+            "emailIs": "The email address of this {category} is <a href='mailto:{email}' target='_blank'>{email}</a>",
+            "emailOf": "What is the email address of {category}?",
+            "phoneNumberIs": "The phone number of this {category} is <a href='tel:{phone}' target='_blank'>{phone}</a>",
+            "phoneNumberOf": "What is the phone number of {category}?",
+            "websiteIs": "Website: <a href='{website}' target='_blank'>{website}</a>",
+            "websiteOf": "What is the website of {category}?"
+        },
+        "readYourMessages": "Please, read all your OpenStreetMap-messages before adding a new feature.",
+        "removeLocationHistory": "Delete the location history",
+        "returnToTheMap": "Return to the map",
+        "save": "Save",
+        "screenToSmall": "Open {theme} in a new window",
+        "search": {
+            "error": "Something went wrong…",
+            "nothing": "Nothing found…",
+            "search": "Search a location",
+            "searchShort": "Search…",
+            "searching": "Searching…"
+        },
+        "sharescreen": {
+            "addToHomeScreen": "<h3>Add to your home screen</h3>You can easily add this website to your smartphone home screen for a native feel. Click the 'Add to home screen' button in the URL bar to do this.",
+            "copiedToClipboard": "Link copied to clipboard",
+            "downloadCustomTheme": "Download the configuration for this theme",
+            "downloadCustomThemeHelp": "An experienced contributor can use this file to improve your theme",
+            "editThemeDescription": "Add or change questions to this map theme",
+            "editThisTheme": "Edit this theme",
+            "embedIntro": "<h3>Embed on your website</h3>Please, embed this map into your website. <br/>We encourage you to do it - you don't even have to ask permission. <br/> It is free, and always will be. The more people are using this, the more valuable it becomes.",
+            "fsAddNew": "Enable the 'add new POI' button",
+            "fsGeolocation": "Enable the 'geolocate-me' button (mobile only)",
+            "fsIncludeCurrentBackgroundMap": "Include the current background choice <b>{name}</b>",
+            "fsIncludeCurrentLayers": "Include the current layer choices",
+            "fsIncludeCurrentLocation": "Include current location",
+            "fsLayerControlToggle": "Start with the layer control expanded",
+            "fsLayers": "Enable the layer control",
+            "fsSearch": "Enable the search bar",
+            "fsUserbadge": "Enable the login button",
+            "fsWelcomeMessage": "Show the welcome message popup and associated tabs",
+            "intro": "<h3>Share this map</h3> Share this map by copying the link below and sending it to friends and family:",
+            "thanksForSharing": "Thanks for sharing!",
+            "title": "Share this map"
+        },
+        "skip": "Skip this question",
+        "testing": "Testing - changes won't be saved",
+        "uploadGpx": {
+            "choosePermission": "Choose below if your track should be shared:",
+            "confirm": "Confirm upload",
+            "gpxServiceOffline": "The GPX-service is currently offline - uploading is currently not possible. Try again later.",
+            "intro0": "By uploading your track, OpenStreetMap.org will retain a full copy of the track.",
+            "intro1": "You will be able to download your track again and to load them into OpenStreetMap editing programs",
+            "meta": {
+                "descriptionIntro": "Optionally, you can enter a description of your trace:",
+                "descriptionPlaceHolder": "Enter a description of your trace",
+                "intro": "Add a title for your track:",
+                "title": "Title and description",
+                "titlePlaceholder": "Enter the title of your trace"
+            },
+            "modes": {
+                "private": {
+                    "docs": "The points of your track will be shared and aggregated among other tracks. The full track will be visible to you and you will be able to load it into other editing programs. OpenStreetMap.org retains a copy of your trace",
+                    "name": "Anonymous"
+                },
+                "public": {
+                    "docs": "Your trace will be visible to everyone, both on your user profile and on the list of GPS-traces on openstreetmap.org",
+                    "name": "Public"
+                }
+            },
+            "title": "Upload your track to OpenStreetMap.org",
+            "uploadFinished": "Your track has been uploaded!",
+            "uploading": "Uploading your trace…"
+        },
+        "useSearch": "Use the search above to see presets",
+        "useSearchForMore": "Use the search function to search within {total} more values…",
+        "weekdays": {
+            "abbreviations": {
+                "friday": "Fri",
+                "monday": "Mon",
+                "saturday": "Sat",
+                "sunday": "Sun",
+                "thursday": "Thu",
+                "tuesday": "Tue",
+                "wednesday": "Wed"
+            },
+            "friday": "Friday",
+            "monday": "Monday",
+            "saturday": "Saturday",
+            "sunday": "Sunday",
+            "thursday": "Thursday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday"
+        },
+        "welcomeBack": "Welcome back!",
+        "welcomeExplanation": {
+            "addNew": "Tap the map to add a new POI.",
+            "general": "On this map, you can see, edit and add <i>points of interest</i>. Zoom around to see the POI, tap one to see or edit the information. All data is sourced from and saved to OpenStreetMap, which can be freely reused."
+        },
+        "wikipedia": {
+            "addEntry": "Add another Wikipedia page",
+            "createNewWikidata": "Create a new Wikidata item",
+            "doSearch": "Search above to see results",
+            "failed": "Loading the Wikipedia entry failed",
+            "fromWikipedia": "From Wikipedia, the free encyclopedia",
+            "loading": "Loading Wikipedia…",
+            "noResults": "Nothing found for <i>{search}</i>",
+            "noWikipediaPage": "This Wikidata item has no corresponding Wikipedia page yet.",
+            "previewbox": {
+                "born": "Born: {value}",
+                "died": "Died: {value}"
+            },
+            "searchToShort": "Your search query is too short, enter a longer text",
+            "searchWikidata": "Search on Wikidata",
+            "wikipediaboxTitle": "Wikipedia"
+        }
+    },
+    "hotkeyDocumentation": {
+        "action": "Action",
+        "closeSidebar": "Close the sidebar",
+        "geolocate": "Pan the map to the current location or zoom the map to the current location. Requests geopermission",
+        "intro": "MapComplete supports the following keys:",
+        "key": "Key combination",
+        "openLayersPanel": "Opens the layers and filters panel",
+        "selectAerial": "Set the background to aerial or satellite imagery. Toggles between the two best, available layers",
+        "selectMap": "Set the background to a map from external sources. Toggles between the two best, available layers",
+        "selectMapnik": "Set the background layer to OpenStreetMap-carto",
+        "selectOsmbasedmap": "Set the background layer to on OpenStreetMap-based map (or disable the background raster layer)",
+        "selectSearch": "Select the search bar to search locations",
+        "title": "Hotkeys"
+    },
+    "image": {
+        "addPicture": "Add picture",
+        "currentLicense": "Your images will be published under {license}",
+        "doDelete": "Remove image",
+        "dontDelete": "Cancel",
+        "isDeleted": "Deleted",
+        "nearbyPictures": {
+            "allFiltered": "No images matched your filter",
+            "browseNearby": "Browse nearby images…",
+            "confirm": "The selected image shows {title()}",
+            "hasMatchingPicture": "Does a picture match the object? Select it below",
+            "loadMore": "Load more images",
+            "loading": "Loading nearby images…",
+            "noImageSelected": "Select an image to link it to the object",
+            "nothingFound": "No nearby images found…",
+            "onlyTowards": "Only show pictures which are taken towards this object",
+            "removeFilters": "Click here to remove the filters",
+            "title": "Nearby pictures",
+            "withinRadius": "Only show pictures which are taken within {radius} meter of this object"
+        },
+        "pleaseLogin": "Please log in to add a picture",
+        "respectPrivacy": "Do not photograph people nor license plates. Do not upload Google Maps, Google Streetview or other copyrighted sources.",
+        "toBig": "Your image is too large as it is {actual_size}. Please use images of at most {max_size}",
+        "uploadDone": "Your picture has been added. Thanks for helping out!",
+        "uploadFailed": "Could not upload your picture. Are you connected to the Internet, and allow third party API's? The Brave browser or the uMatrix plugin might block them.",
+        "uploadMultipleDone": "{count} pictures have been added. Thanks for helping out!",
+        "uploadingMultiple": "Uploading {count} pictures…",
+        "uploadingPicture": "Uploading your picture…"
+    },
+    "importInspector": {
+        "title": "Inspect and manage import notes"
+    },
+    "importLayer": {
+        "alreadyMapped": "There already is {title} on the map - this point is a duplicate",
+        "description": "A layer which imports entries for {title}",
+        "importButton": "import_button({layerId}, _tags, I have found a {title} here - add it to the map,./assets/svg/addSmall.svg,,,id)",
+        "importHandled": "<div class='thanks'>This feature has been handled! Thanks for your effort</div>",
+        "layerName": "Possible {title}",
+        "nearbyImagesIntro": "<h3>Nearby pictures</h3>The following pictures are nearby geotagged pictures from various online services. They might help you to resolve this note.{nearby_images(open)}",
+        "notFound": "I could not find {title} - remove it",
+        "popupTitle": "There might be {title} here"
+    },
+    "index": {
+        "#": "These texts are shown above the theme buttons when no theme is loaded",
+        "featuredThemeTitle": "Featured this week",
+        "intro": "MapComplete is an OpenStreetMap-viewer and editor, which shows you information about features of a specific theme and allows to update it.",
+        "logIn": "Log in to see other themes you previously visited",
+        "pickTheme": "Pick a theme below to get started.",
+        "title": "Welcome to MapComplete"
+    },
+    "move": {
+        "cancel": "Cancel move",
+        "cannotBeMoved": "This feature cannot be moved.",
+        "confirmMove": "Move here",
+        "inviteToMove": {
+            "generic": "Move this point",
+            "reasonInaccurate": "Improve the accuracy of this point",
+            "reasonRelocation": "Move this object to a another place because it has relocated"
+        },
+        "inviteToMoveAgain": "Move this point again",
+        "isRelation": "This feature is a relation and can not be moved",
+        "isWay": "This feature is a way. Use another OpenStreetMap editor to move it.",
+        "loginToMove": "You must be logged in to move a point",
+        "moveTitle": "Move this point",
+        "partOfAWay": "This feature is part of another way. Use another editor to move it.",
+        "partOfRelation": "This feature is part of a relation. Use another editor to move it.",
+        "pointIsMoved": "The point has been moved",
+        "reasons": {
+            "reasonInaccurate": "The location of this object is inaccurate and should be moved a few meter",
+            "reasonRelocation": "The object has been relocated to a totally different location"
+        },
+        "selectReason": "Why do you move this object?",
+        "whyMove": "Why do you want to move this point?",
+        "zoomInFurther": "Zoom in further to confirm this move"
+    },
+    "multi_apply": {
+        "autoApply": "When changing the attributes {attr_names}, these attributes will automatically be changed on {count} other objects too"
+    },
+    "notes": {
+        "addAComment": "Add a comment",
+        "addComment": "Add comment",
+        "addCommentAndClose": "Add comment and close",
+        "addCommentPlaceholder": "Add a comment…",
+        "anonymous": "Anonymous user",
+        "closeNote": "Close note",
+        "createNote": "Create a new note",
+        "createNoteIntro": "Is something wrong or missing on the map? Create a note here. These will be checked by volunteers.",
+        "createNoteTitle": "Create a new note here",
+        "creating": "Creating note…",
+        "disableAllNoteFilters": "Disable all filters",
+        "isClosed": "This note is resolved",
+        "isCreated": "Your note has been created!",
+        "loginToAddComment": "Log in to add a comment",
+        "loginToAddPicture": "Log in to add a picture",
+        "loginToClose": "Log in to close this note",
+        "noteIsPublic": "This will be visible to everyone",
+        "noteLayerDoEnable": "Enable the layer showing notes",
+        "noteLayerHasFilters": "Some notes might be hidden by a filter",
+        "noteLayerNotEnabled": "The layer showing notes is not enabled. This layer must be enabled to add a new note",
+        "notesLayerMustBeEnabled": "The 'notes'-layer is disabled. Enable it to add a note",
+        "reopenNote": "Reopen note",
+        "reopenNoteAndComment": "Reopen note and comment",
+        "textNeeded": "Enter a descriptive text to create a note",
+        "typeText": "Type some text to add a comment",
+        "warnAnonymous": "You are not logged in. We won't be able to contact you to resolve your issue."
+    },
+    "plantDetection": {
+        "back": "Back to species overview",
+        "confirm": "Select species",
+        "error": "Something went wrong while detecting the tree species: {error}",
+        "howTo": {
+            "intro": "For optimal results,",
+            "li0": "take a picture which show the tree in the center without much background",
+            "li1": "take a picture which shows a single leaf",
+            "li2": "take a picture which shows the bark",
+            "li3": "take a picture of the flowers"
+        },
+        "loadingWikidata": "Loading information about {species}…",
+        "matchPercentage": "{match}% match",
+        "overviewIntro": "The AI on <a href='https://plantnet.org/' target='_blank'>plantnet.org</a> thinks the images show the species below.",
+        "overviewTitle": "Automatically detected species",
+        "overviewVerify": "Please verify that correct species and link it to the tree",
+        "poweredByPlantnet": "Powered by <a href='https://plantnet.org' target='_blank'>plantnet.org</a>",
+        "querying": "Querying plantnet.org with {length} images",
+        "seeInfo": "See more information about the species",
+        "takeImages": "Take images of the tree to automatically detect the tree type"
+    },
+    "privacy": {
+        "editing": "When you make a change to the map, this change is recorded on OpenStreetMap and is publicly available to anyone. A changeset made with MapComplete includes the following data: <ul><li>The changes you made</li><li>Your username</li><li>When this change is made</li><li>The theme you used while making the change</li><li>The language of the user interface</li><li>An indication of how close you were to changed objects. Other mappers can use this information to determine if a change was made based on survey or on remote research</li></ul> Please refer to <a href='https://wiki.osmfoundation.org/wiki/Privacy_Policy' target='_blank'>the privacy policy on OpenStreetMap.org</a> for detailed information. We'd like to remind you that you can use a fictional name when signing up.",
+        "editingTitle": "When making changes",
+        "geodata": "When MapComplete gets your geolocation, your geolocation and previously visited locations stay on your device. Your location data is never automatically sent to anywhere else - unless some functionality clearly states otherwise.",
+        "geodataTitle": "Your geolocation",
+        "intro": "Privacy is important - for both the individual and for society. MapComplete tries to respect your privacy as much as possible - up to the point no annoying cookie banner is needed. However, we still would like to inform you which information is gathered and shared, under which circumstances and why these trade-offs are made.",
+        "miscCookies": "MapComplete integrates with various other services, especially to load images of features. Images are hosted on various third-party servers, which might set cookies on their own.",
+        "miscCookiesTitle": "Other cookies",
+        "surveillance": "As you are reading the privacy policy, you probably care about privacy - so do we! We even made <a href='https://mapcomplete.osm.be/surveillance'>a theme showing surveillance cameras.</a> Feel free to map them all!",
+        "title": "Privacy policy",
+        "tracking": "To gather some insight in whom visits our website, some technical information is collected. This is included the country you visited the webpage from, which website referred you to MapComplete, the type of your device and the screensize. A cookie is placed on your device to indicate that you visited MapComplete earlier today. This data is not detailed enough to personally identify you. These statistics are only available to anyone in aggregate and are <a href='https://pietervdvn.goatcounter.com' target='_blank'>publicly available to anyone</a>",
+        "trackingTitle": "Statistical data",
+        "whileYoureHere": "Do you care about privacy?"
+    },
+    "reviews": {
+        "affiliated_reviewer_warning": "(Affiliated review)",
+        "attribution": "Reviews are powered by <a href='https://mangrove.reviews/' target='_blank'>Mangrove Reviews</a> and are available under <a href='https://mangrove.reviews/terms#8-licensing-of-content' target='_blank'>CC-BY 4.0</a>.",
+        "i_am_affiliated": "<span>I am affiliated with this object</span><br/><span class='subtle'>Check if you are an owner, creator, employee, …</span>",
+        "name_required": "A name is required in order to display and create reviews",
+        "no_rating": "Give a rating before submitting…",
+        "no_reviews_yet": "There are no reviews yet. Be the first to write one and help open data and the business!",
+        "plz_login": "Log in to leave a review",
+        "posting_as": "Posting as",
+        "save": "Save",
+        "saved": "<span class='thanks'>Review saved. Thanks for sharing!</span>",
+        "saving_review": "Saving…",
+        "title": "{count} reviews",
+        "title_singular": "One review",
+        "tos": "If you create a review, you agree to <a href='https://mangrove.reviews/terms' target='_blank'>the TOS and privacy policy of Mangrove.reviews</a>",
+        "write_a_comment": "Leave a review…"
+    },
+    "split": {
+        "cancel": "Cancel",
+        "hasBeenSplit": "This way has been split",
+        "inviteToSplit": "Split this road in smaller segments. This allows to give different properties to parts of the road.",
+        "loginToSplit": "You must be logged in to split a road",
+        "split": "Split",
+        "splitAgain": "Split this road again",
+        "splitTitle": "Choose on the map where the properties of this road change"
+    },
+    "translations": {
+        "activateButton": "Help translate MapComplete",
+        "allMissing": "No translations yet",
+        "missing": "{count} untranslated strings",
+        "notImmediate": "Translations are not updated directly. This typically takes a few days"
+    },
+    "userinfo": {
+        "editDescription": "Edit your profile description",
+        "gotoInbox": "Open your inbox",
+        "gotoSettings": "Go to your settings on OpenStreetMap.org",
+        "noDescription": "You don't have a description on your profile yet",
+        "noDescriptionCallToAction": "Add a profile description",
+        "notLoggedIn": "You have logged out"
+    },
+    "validation": {
+        "color": {
+            "description": "A color or hexcode"
+        },
+        "date": {
+            "description": "A date, starting with the year"
+        },
+        "direction": {
+            "description": "An orientation"
+        },
+        "distance": {
+            "description": "A distance in meter"
+        },
+        "email": {
+            "description": "e-mail address",
+            "feedback": "This is not a valid email address",
+            "noAt": "An e-mail address must contain an @"
+        },
+        "float": {
+            "description": "a number",
+            "feedback": "This is not a number"
+        },
+        "int": {
+            "description": "a whole number"
+        },
+        "nat": {
+            "description": "a positive, whole number or zero",
+            "mustBePositive": "This number should be positive",
+            "mustBeWhole": "Only whole numbers are allowed",
+            "notANumber": "Enter a number"
+        },
+        "opening_hours": {
+            "description": "Opening hours"
+        },
+        "pfloat": {
+            "description": "a positive number"
+        },
+        "phone": {
+            "description": "a phone number",
+            "feedback": "This is not a valid phone number",
+            "feedbackCountry": "This is not a valid phone number (for country {country})"
+        },
+        "pnat": {
+            "description": "a positive, whole number",
+            "noZero": "Zero is not allowed"
+        },
+        "string": {
+            "description": "a piece of text"
+        },
+        "text": {
+            "description": "a piece of text"
+        },
+        "tooLong": "The text is too long, at most 255 characters are allowed. You have {count} characters now.",
+        "url": {
+            "description": "link to a website",
+            "feedback": "This is not a valid web address"
+        },
+        "wikidata": {
+            "description": "A Wikidata identifier"
+        }
+    }
+}

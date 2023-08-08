@@ -1,258 +1,72 @@
 {
   "id": "fritures",
   "title": {
+    "en": "Fries shops",
     "nl": "Friturenkaart",
-    "fr": "Carte des friteries"
+    "fr": "Carte des friteries",
+    "de": "Pommesbuden",
+    "ca": "Botigues de patates",
+    "da": "Pommes frites butik",
+    "pa_PK": "فرائیاں دیاں دکاناں",
+    "cs": "Obchody s hranolky",
+    "es": "Tiendas de patatas fritas"
   },
   "description": {
-    "nl": "Op deze kaart vind je je favoriete frituur!"
+    "en": "On this map, you'll find your favourite fries shop!",
+    "nl": "Op deze kaart vind je je favoriete frituur!",
+    "de": "Auf dieser Karte findest du deine Lieblings-Pommesbude!",
+    "fr": "Retrouves vos friteries préférées sur cette carte !",
+    "da": "På dette kort finder du din foretrukne pomfrits-butik!",
+    "cs": "Na této mapě najdete své oblíbené obchody s hranolky!",
+    "ca": "A aquest mapa, trobaràs la teva botiga preferida de patates!",
+    "es": "¡En este mapa encontrarás tu tienda de patatas fritas favorita!"
   },
-  "language": [
-    "nl",
-    "fr"
-  ],
-  "maintainer": "",
   "icon": "./assets/themes/fritures/logo.svg",
-  "version": "0",
   "startLat": 0,
   "startLon": 0,
   "startZoom": 1,
-  "widenFactor": 0.05,
-  "socialImage": "",
+  "widenFactor": 3,
   "layers": [
     {
-      "id": "fritures",
-      "name": {
-        "nl": "Frituren",
-        "fr": "Friteries"
-      },
-      "minzoom": 8,
-      "source": {
-        "osmTags": {
-          "and": [
-            "cuisine~.*friture.*"
-          ]
+      "builtin": "food",
+      "override": {
+        "id": "friture",
+        "name": {
+          "nl": "Frituren",
+          "en": "Fries shop",
+          "fr": "Friteries",
+          "de": "Pommesbude",
+          "it": "Friggitoria",
+          "hu": "Sültkrumplievő-hely",
+          "ca": "Botigues de patates",
+          "da": "Pommes frites butik",
+          "pa_PK": "فرائیاں دی دکان",
+          "cs": "Obchod s hranolky",
+          "es": "Tienda de patatas fritas"
+        },
+        "=presets": [],
+        "source": {
+          "=osmTags": {
+            "and": [
+              "cuisine~(.*;)?friture(;.*)?",
+              {
+                "or": [
+                  "amenity=fast_food",
+                  "amenity=restaurant"
+                ]
+              }
+            ]
+          }
         }
-      },
-      "title": {
-        "render": {
-          "nl": "Frituur",
-          "fr": "Friterie"
-        },
-        "mappings": [
-          {
-            "if": {
-              "and": [
-                "name~*"
-              ]
-            },
-            "then": {
-              "nl": " <i>{name}</i>",
-              "fr": " <i>{name}</i>"
-            }
-          }
-        ]
-      },
-      "tagRenderings": [
-        "images",
-        {
-          "render": {
-            "nl": "{name}",
-            "fr": "{name}"
-          },
-          "question": {
-            "en": "What is the name of this friture?",
-            "nl": "Wat is de naam van deze frituur?",
-            "fr": "Quel est le nom de cette friterie?"
-          },
-          "freeform": {
-            "key": "name"
-          }
-        },
-        {
-          "render": {
-            "nl": "<h3>Openingsuren</h3>{opening_hours_table(opening_hours)}",
-            "fr": "<h3>Horaires</h3>{opening_hours_table(opening_hours)}"
-          },
-          "question": {
-            "nl": "Wat zijn de openinguren van deze frituur?",
-            "fr": "Quand est ce-que ce friterie ouvert?"
-          },
-          "freeform": {
-            "key": "opening_hours",
-            "type": "opening_hours"
-          }
-        },
-        {
-          "render": {
-            "en": "<a href='{website}'>{website}</a>"
-          },
-          "question": {
-            "en": "What is the website of this shop?",
-            "nl": "Wat is de website van deze frituur?",
-            "fr": "Quel est le site web de cette  friterie?"
-          },
-          "freeform": {
-            "key": "website",
-            "type": "url"
-          }
-        },
-        {
-          "render": {
-            "nl": "<a href='tel:{phone}'>{phone}</a>",
-            "fr": "<a href='tel:{phone}'>{phone}</a>"
-          },
-          "question": {
-            "en": "What is the phone number?",
-            "nl": "Wat is het telefoonnummer van deze frituur?",
-            "fr": "Quel est le numéro de téléphone de cette friterie?"
-          },
-          "freeform": {
-            "key": "phone",
-            "type": "phone"
-          }
-        },
-        {
-          "question": {
-            "nl": "Heeft deze frituur vegetarische snacks?",
-            "fr": "Cette friterie est-elle équipée de snacks végétariens ?"
-          },
-          "mappings": [
-            {
-              "if": {
-                "and": [
-                  "diet:vegetarian=yes"
-                ]
-              },
-              "then": {
-                "nl": "Er zijn vegetarische snacks aanwezig",
-                "fr": "Des collations végétariennes sont disponibles"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "diet:vegetarian=limited"
-                ]
-              },
-              "then": {
-                "nl": "Slechts enkele vegetarische snacks",
-                "fr": "Quelques snacks végétariens seulement"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "diet:vegetarian=no"
-                ]
-              },
-              "then": {
-                "nl": "Geen vegetarische snacks beschikbaar",
-                "fr": "Pas d'en-cas végétariens disponibles"
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "nl": "Heeft deze frituur veganistische snacks?",
-            "fr": "Cette friterie est-elle équipée de snacks végétaliens ?"
-          },
-          "mappings": [
-            {
-              "if": {
-                "and": [
-                  "diet:vegan=yes"
-                ]
-              },
-              "then": {
-                "nl": "Er zijn veganistische snacks aanwezig",
-                "fr": "Des collations végétaliens sont disponibles"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "diet:vegan=limited"
-                ]
-              },
-              "then": {
-                "nl": "Slechts enkele veganistische snacks",
-                "fr": "Quelques snacks végétaliens seulement"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "diet:vegetarian=no"
-                ]
-              },
-              "then": {
-                "nl": "Geen veganistische snacks beschikbaar",
-                "fr": "Pas d'en-cas végétaliens disponibles"
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "nl": "Bakt deze frituur in dierlijk  vetof plantaardig olie?",
-            "fr": "Cette friteuse fonctionne-t-elle avec de la graisse animale ou végétale ?"
-          },
-          "mappings": [
-            {
-              "if": {
-                "and": [
-                  "friture:oil=vegetable"
-                ]
-              },
-              "then": {
-                "nl": "Plantaardige olie",
-                "fr": "Huile végétale"
-              }
-            },
-            {
-              "if": {
-                "and": [
-                  "friture:oil=animal"
-                ]
-              },
-              "then": {
-                "nl": "Dierlijk vet",
-                "fr": "Graisse animale"
-              }
-            }
-          ]
-        },
-        "questions",
-        "reviews"
-      ],
-      "icon": {
-        "render": "./assets/themes/fritures/fries.svg"
-      },
-      "width": {
-        "render": "8"
-      },
-      "iconSize": {
-        "render": "40,40,center"
-      },
-      "color": {
-        "render": "#00f"
-      },
-      "presets": [
-        {
-          "title": {
-            "nl": "Frituur",
-            "fr": "Friturie"
-          },
-          "tags": [
-            "amenity=fast_food",
-            "cuisine=friture"
-          ]
-        }
-      ],
-      "wayHandling": 1
+      }
+    },
+    {
+      "builtin": "food",
+      "override": {
+        "minzoom": 19,
+        "filter": null,
+        "name": null
+      }
     }
-  ],
-  "roamingRenderings": []
+  ]
 }

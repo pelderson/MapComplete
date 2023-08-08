@@ -1,0 +1,129 @@
+{
+    "centerMessage": {
+        "loadingData": "ڈیٹا لوڈ کیتا جا رہا اے۔ ۔ ۔",
+        "ready": "ٹھیک اے، چنگے سی۔"
+    },
+    "delete": {
+        "cancel": "رد کرو",
+        "delete": "مٹاؤ"
+    },
+    "general": {
+        "attribution": {
+            "editJosm": "جے‌او‌ایس‌ایم وچ اِتھے سودھو",
+            "iconAttribution": {
+                "title": "ورتے آئیکون"
+            },
+            "josmOpened": "جے‌او‌ایس‌ایم کھُلھیا گیا",
+            "openIssueTracker": "مسئلہ ریپورٹ کرو",
+            "openMapillary": "اِتھے میپیلیری کھُلھو"
+        },
+        "back": "پچھے",
+        "backgroundMap": "پچھکڑ دا نقشہ",
+        "cancel": "رد کرو",
+        "confirm": "پکا کرو",
+        "download": {
+            "exporting": "ایکسپورٹ کیتا جا رہا اے۔ ۔ ۔"
+        },
+        "example": "مثال",
+        "examples": "مثال",
+        "goToInbox": "اینباکس کھُلھو",
+        "layerSelection": {
+            "title": "کج چݨو"
+        },
+        "loading": "لوڈ کر رہا اے۔ ۔ ۔",
+        "logout": "لوگ‌آؤٹ کرو",
+        "morescreen": {
+            "noSearch": "ساریاں تھیم ویکھو"
+        },
+        "next": "اگے",
+        "noTagsSelected": "کوئی ٹیگ نہیں چݨے اے",
+        "number": "نمبر",
+        "openTheMap": "نقشہ کھُلھو",
+        "opening_hours": {
+            "loadingCountry": "دیش لبھی۔ ۔ ۔",
+            "openTill": "—",
+            "opensAt": "توں",
+            "ph_closed": "بند",
+            "ph_open": "کھُلھا"
+        },
+        "poweredByOsm": "اوپن‌سٹریٹ‌میپ توں ڈیٹا ورتدا",
+        "save": "سامبھو",
+        "search": {
+            "error": "کجھ غلطی آئی اے۔   ۔ ۔",
+            "nothing": "کجھ نہیں لبھے۔ ۔ ۔",
+            "search": "ستھتیاں وچ کھوجو",
+            "searching": "کھوجیا جا رہا اے۔ ۔ ۔"
+        },
+        "sharescreen": {
+            "editThisTheme": "ایہہ تھیم سودھو",
+            "thanksForSharing": "ٹھیک اے، مہربانی۔"
+        },
+        "weekdays": {
+            "abbreviations": {
+                "friday": "جـ",
+                "monday": "سـ",
+                "saturday": "ہـ",
+                "sunday": "اتـ",
+                "thursday": "جـ",
+                "tuesday": "مـ",
+                "wednesday": "بـ"
+            },
+            "friday": "جمعہ",
+            "monday": "سوموار",
+            "saturday": "ہفتہ",
+            "sunday": "اتوار",
+            "thursday": "جمعرات",
+            "tuesday": "منگلوار",
+            "wednesday": "بدھوار"
+        },
+        "wikipedia": {
+            "loading": "وِکیپیڈیا لوڈ کیتا جا رہا اے۔ ۔ ۔",
+            "searchWikidata": "وِکیڈیٹے وچ کھوجو",
+            "wikipediaboxTitle": "وِکیپیڈیا"
+        }
+    },
+    "image": {
+        "addPicture": "تصویر پایو",
+        "doDelete": "تصویر ہٹاؤ",
+        "dontDelete": "رد کرو",
+        "isDeleted": "مٹائی گئی",
+        "nearbyPictures": {
+            "browseNearby": "نیڑے تیڑے تے تصویراں ویکھو۔ ۔ ۔",
+            "loadMore": "ہور تصویراں لوڈ کرو",
+            "title": "نیڑے تیڑے تے تصویراں"
+        }
+    },
+    "move": {
+        "cancel": "چلݨ رد کرو"
+    },
+    "notes": {
+        "addAComment": "ٹپݨی کرو",
+        "addCommentPlaceholder": "ٹپݨی کرو۔ ۔ ۔",
+        "closeNote": "نوٹ بند کرو"
+    },
+    "reviews": {
+        "saving_review": "سامبھیا جا رہا اے…"
+    },
+    "split": {
+        "cancel": "رد کرو",
+        "split": "دپھیر کرو"
+    },
+    "translations": {
+        "activateButton": "ترجمہ کریو",
+        "allMissing": "ہݨے کوئی ترجمے نہیں اے"
+    },
+    "validation": {
+        "float": {
+            "description": "کجھ نمبر"
+        },
+        "nat": {
+            "notANumber": "اِک نمبر پایو"
+        },
+        "opening_hours": {
+            "description": "کھُلھے گھنٹے"
+        },
+        "phone": {
+            "description": "فون نمبر"
+        }
+    }
+}

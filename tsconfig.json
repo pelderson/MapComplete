@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": false,
     "resolveJsonModule": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": [
-      "DOM",
-      "es5",
-      "scripthost",
-      "es2015.collection",
-    ]
+    "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "isolatedModules": false,
+      "esModuleInterop": true
+    }
+  },
+  "exclude": ["node_modules", "test", "scripts"]
 }

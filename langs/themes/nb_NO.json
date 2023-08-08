@@ -1,0 +1,749 @@
+{
+    "aed": {
+        "description": "Defibrillatorer i nærheten",
+        "title": "Åpne AED-kart"
+    },
+    "artwork": {
+        "description": "Statuer, byster, graffiti, og andre kunstverk verden over",
+        "title": "Kunstkort"
+    },
+    "atm": {
+        "description": "Viser minibanker for å ta ut eller sette inn penger",
+        "title": "Minibanker"
+    },
+    "bag": {
+        "layers": {
+            "2": {
+                "tagRenderings": {
+                    "Build year": {
+                        "mappings": {
+                            "0": {
+                                "then": "Oppføring startet <b>{_bag_obj:start_date}</b>"
+                            }
+                        },
+                        "render": "Bygning oppført <b>{_bag_obj:start_date}</b>"
+                    },
+                    "Building type": {
+                        "render": "Dette er en bygning av typen <b>{_bag_obj:building}</b>"
+                    },
+                    "Import button": {
+                        "mappings": {
+                            "0": {
+                                "then": "Har ikke regnet ut riktige verdier enda. Gjenoppfrisk siden."
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title": "BAG-importhjelper"
+    },
+    "benches": {
+        "description": "Viser alle benker som er registrert i OpenStreetMap: Individuelle benker, og benker som tilhører offentlig transport eller -skur. Med en OpenStreetMap-konto kan du kartlegge nye benker eller redigere eksisterende.",
+        "shortDescription": "Et benkekart",
+        "title": "Benker"
+    },
+    "bicycle_rental": {
+        "description": "Her finner du mange sykkelutleiestasjoner slik de er kjent for OpenStreetMap",
+        "shortDescription": "Sykkelutleiestasjoner og sykkelutleiebutikker",
+        "title": "Sykkelutleie"
+    },
+    "bicyclelib": {
+        "description": "Et sykkelbibliotek er et sted der man kan låne sykler, ofte for en liten årlig sum. I særdeleshet finnes de for unger som lar dem bytte til en større sykkel når de har vokst fra den de har.",
+        "title": "Sykkelbibliotek"
+    },
+    "binoculars": {
+        "description": "Stedsbundne kikkerter på påle. Vanligvis på turiststeder, utkikkspunkter, på toppen av utsiktstårn, og noen ganger i naturreservat.",
+        "shortDescription": "Et kart over fastmonterte kikkerter",
+        "title": "Kikkerter"
+    },
+    "blind_osm": {
+        "description": "Relevante funksjoner for blinde",
+        "title": "OSM for blinde"
+    },
+    "bookcases": {
+        "title": "Kart over åpne bokhyller"
+    },
+    "cafes_and_pubs": {
+        "description": "Kneiper og barer",
+        "title": "Kafeer og kneiper"
+    },
+    "campersite": {
+        "layers": {
+            "0": {
+                "tagRenderings": {
+                    "caravansites-charge": {
+                        "question": "pø",
+                        "render": "Dette stedet tar {charge}"
+                    },
+                    "caravansites-description": {
+                        "question": "Vil du legge til en generell beskrivelse av dette stedet? (Ikke gjenta info det har blitt spurt om eller som vises ovenfor. Hold det objektivt. Meninger henvises til vurderingene.)",
+                        "render": "Flere detaljer om dette stedet: {description}"
+                    },
+                    "caravansites-fee": {
+                        "mappings": {
+                            "0": {
+                                "then": "Man må betale for bruk"
+                            },
+                            "1": {
+                                "then": "Kan brukes gratis"
+                            }
+                        },
+                        "question": "Tar dette stedet en avgift?"
+                    },
+                    "caravansites-internet": {
+                        "mappings": {
+                            "0": {
+                                "then": "Det finnes tilgang til Internett"
+                            },
+                            "1": {
+                                "then": "Det finnes tilgang til Internett"
+                            },
+                            "2": {
+                                "then": "Det finnes ingen tilgang til Internett"
+                            }
+                        },
+                        "question": "Tilbyr stedet tilgang til Internett?"
+                    },
+                    "caravansites-internet-fee": {
+                        "mappings": {
+                            "0": {
+                                "then": "Tilgang til Internett koster ekstra"
+                            },
+                            "1": {
+                                "then": "Man må ikke betale ekstra for tilgang til Internett"
+                            }
+                        },
+                        "question": "Må man betale for tilgang til Internett?"
+                    },
+                    "caravansites-long-term": {
+                        "mappings": {
+                            "0": {
+                                "then": "Det finnes noen plasser for langtidsleie, men man kan også bruke dem på dagsbasis"
+                            },
+                            "1": {
+                                "then": "Det er ingen permanente gjester her"
+                            },
+                            "2": {
+                                "then": "Det er kun mulig å bo her hvis man har en langtidskontrakt (dette stedet vil forsvinne fra kartet hvis du velger dette)"
+                            }
+                        },
+                        "question": "Tilbyr dette stedet plasser for langtidsleie?"
+                    },
+                    "caravansites-name": {
+                        "question": "Hva heter dette stedet?",
+                        "render": "Dette stedet heter {name}"
+                    },
+                    "caravansites-toilets": {
+                        "mappings": {
+                            "0": {
+                                "then": "Dette stedet har toalettfasiliteter"
+                            },
+                            "1": {
+                                "then": "Dette stedet har ikke toalettfasiliteter"
+                            }
+                        },
+                        "question": "Har dette stedet toaletter?"
+                    },
+                    "caravansites-website": {
+                        "question": "Har dette stedet en nettside?",
+                        "render": "Offisiell nettside: <a href='{website}'>{website}</a>"
+                    }
+                }
+            },
+            "1": {
+                "tagRenderings": {
+                    "dumpstations-access": {
+                        "mappings": {
+                            "0": {
+                                "then": "Du trenger en nettverksnøkkel/kode for å bruke dette"
+                            }
+                        }
+                    },
+                    "dumpstations-charge": {
+                        "question": "Hvor mye koster det å bruke dette stedet?",
+                        "render": "Dette stedet tar {charge}"
+                    },
+                    "dumpstations-fee": {
+                        "mappings": {
+                            "0": {
+                                "then": "Man må betale for bruk"
+                            },
+                            "1": {
+                                "then": "Kan brukes gratis"
+                            }
+                        },
+                        "question": "Krever dette stedet et gebyr?"
+                    },
+                    "dumpstations-grey-water": {
+                        "mappings": {
+                            "0": {
+                                "then": "Du kan kvitte deg med gråvann her"
+                            },
+                            "1": {
+                                "then": "Du kan ikke kvitte deg med gråvann her"
+                            }
+                        },
+                        "question": "Kan du kvitte deg med gråvann her?"
+                    },
+                    "dumpstations-waterpoint": {
+                        "mappings": {
+                            "0": {
+                                "then": "Dette stedet har en vannpost"
+                            },
+                            "1": {
+                                "then": "Dette stedet har ikke en vannpost"
+                            }
+                        },
+                        "question": "Har dette stedet et vannkranssted?"
+                    }
+                }
+            }
+        },
+        "overrideAll": {
+            "tagRenderings+": {
+                "0": {
+                    "question": "Hvem driver dette stedet?",
+                    "render": "Dette stedet drives av {operator}"
+                },
+                "1": {
+                    "mappings": {
+                        "0": {
+                            "then": "Dette stedet har strømforsyning"
+                        },
+                        "1": {
+                            "then": "Dette stedet har ikke strømforsyning"
+                        }
+                    },
+                    "question": "Har dette stedet strømforsyning?"
+                }
+            }
+        }
+    },
+    "charging_stations": {
+        "description": "Finn og merk info om ladestasjoner",
+        "shortDescription": "Et verdensomspennende kart over ladestasjoner",
+        "title": "Ladestasjoner"
+    },
+    "climbing": {
+        "description": "Forskjellige klatremuligheter, som f.eks. buldrehaller og steiner i naturen.",
+        "layers": {
+            "0": {
+                "override": {
+                    "tagRenderings+": {
+                        "1": {
+                            "mappings": {
+                                "0": {
+                                    "then": "Offentlig tilgjengelig for alle"
+                                },
+                                "2": {
+                                    "then": "Kun for kunder"
+                                },
+                                "3": {
+                                    "then": "Kun klubbmedlemmer"
+                                }
+                            }
+                        }
+                    },
+                    "units+": {
+                        "0": {
+                            "applicableUnits": {
+                                "0": {
+                                    "human": " meter"
+                                },
+                                "1": {
+                                    "human": " fot"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title": "Åpent klatrekart"
+    },
+    "cycle_highways": {
+        "description": "Kart som viser sykkelmotorveier",
+        "layers": {
+            "0": {
+                "name": "sykkelmotorveier",
+                "title": {
+                    "render": "sykkelmotorvei"
+                }
+            }
+        },
+        "title": "Sykkelmotorveier"
+    },
+    "cycle_infra": {
+        "shortDescription": "Alt relatert til sykkelinfrastruktur.",
+        "title": "Sykkelinfrastruktur"
+    },
+    "cyclenodes": {
+        "layers": {
+            "1": {
+                "name": "noder",
+                "title": {
+                    "render": "sykkelnode <strong>{rcn_ref}</strong>"
+                }
+            }
+        },
+        "title": "Sykkelnodenettverk"
+    },
+    "cyclestreets": {
+        "layers": {
+            "0": {
+                "name": "Sykkelgater"
+            },
+            "1": {
+                "description": "Denne gaten vil bli sykkelgate snart",
+                "name": "Fremtidig sykkelvei",
+                "title": {
+                    "mappings": {
+                        "0": {
+                            "then": "{name} vil bli sykkelgate snart"
+                        }
+                    },
+                    "render": "Fremtidig sykkelvei"
+                }
+            },
+            "2": {
+                "description": "Lag for å markere hvilken som helst gate som sykkelvei",
+                "name": "Alle gater",
+                "title": {
+                    "render": "Gate"
+                }
+            }
+        },
+        "overrideAll": {
+            "+tagRenderings": {
+                "0": {
+                    "mappings": {
+                        "0": {
+                            "then": "Denne gaten er en sykkelvei (og har en fartsgrense på 30 km/t)"
+                        },
+                        "3": {
+                            "then": "Denne gaten er en sykkelvei"
+                        },
+                        "4": {
+                            "then": "Denne gaten vil bli sykkelvei ganske snart"
+                        },
+                        "6": {
+                            "then": "Denne gaten er ikke en sykkelvei"
+                        }
+                    },
+                    "question": "Er <b>{name}</b>-gaten en sykkelgate?"
+                },
+                "1": {
+                    "mappings": {
+                        "3": {
+                            "then": "Biler tillatt"
+                        }
+                    }
+                },
+                "2": {
+                    "question": "Når vil denne gaten bli en sykkelgate?",
+                    "render": "Denne gaten vil bli en sykkelgate {cyclestreet:start_date}"
+                }
+            }
+        },
+        "shortDescription": "Et kart over sykkelveier",
+        "title": "Sykkelgater"
+    },
+    "cyclofix": {
+        "title": "Cyclofix — et åpent kart for syklister"
+    },
+    "drinking_water": {
+        "description": "Offentlig tilgjengelige drikkevannssteder",
+        "title": "Drikkevann"
+    },
+    "education": {
+        "title": "Utdanning"
+    },
+    "etymology": {
+        "layers": {
+            "1": {
+                "override": {
+                    "=name": "Gater uten etymologi-info"
+                }
+            },
+            "2": {
+                "override": {
+                    "=name": "Parker og skoger uten etymologi-info"
+                }
+            },
+            "3": {
+                "override": {
+                    "=name": "Utdannelsesinstitusjoner uten etymologi-info"
+                }
+            },
+            "4": {
+                "override": {
+                    "=name": "Kulturelle steder uten etymologi-info"
+                }
+            },
+            "5": {
+                "override": {
+                    "=name": "Turiststeder uten etymologi-info"
+                }
+            },
+            "6": {
+                "override": {
+                    "=name": "Helse- og sosiale steder uten etymologi-info"
+                }
+            },
+            "7": {
+                "override": {
+                    "=name": "Sportssteder uten etymologi-info"
+                }
+            }
+        },
+        "title": "Åpent etymologikart"
+    },
+    "facadegardens": {
+        "layers": {
+            "0": {
+                "presets": {
+                    "0": {
+                        "description": "Legg til en fronthage",
+                        "title": "en fronthage"
+                    }
+                },
+                "tagRenderings": {
+                    "facadegardens-description": {
+                        "question": "Ekstra beskrivende info om hagen (hvis det trengs og ikke er gjengitt ovenfor)",
+                        "render": "Flere detaljer: {description}"
+                    },
+                    "facadegardens-edible": {
+                        "mappings": {
+                            "0": {
+                                "then": "Det finnes spisbare planter"
+                            },
+                            "1": {
+                                "then": "Det finnes ingen spisbare planter"
+                            }
+                        },
+                        "question": "Finnes det noen spisbare planter?"
+                    },
+                    "facadegardens-plants": {
+                        "question": "Hva slags planter vokser her?"
+                    },
+                    "facadegardens-rainbarrel": {
+                        "mappings": {
+                            "0": {
+                                "then": "Har regntønne"
+                            },
+                            "1": {
+                                "then": "Har ikke regntønne"
+                            }
+                        },
+                        "question": "Er det en vanntønne installert i denne hagen?"
+                    },
+                    "facadegardens-start_date": {
+                        "question": "Når ble hagen opprettet? (Årstall holder.)",
+                        "render": "Konstruksjonsdato for hagen: {start_date}"
+                    },
+                    "facadegardens-sunshine": {
+                        "mappings": {
+                            "0": {
+                                "then": "Hagen er ikke i skyggen"
+                            },
+                            "1": {
+                                "then": "Denne hagen er i delvis skygge"
+                            },
+                            "2": {
+                                "then": "Hagen er i skyggen"
+                            }
+                        },
+                        "question": "Er hagen i skygge eller ei?"
+                    }
+                }
+            }
+        }
+    },
+    "food": {
+        "description": "Restauranter og søppelmat",
+        "title": "Restauranter og søppelmat"
+    },
+    "ghostbikes": {
+        "title": "Spøkelsessykler"
+    },
+    "grb_fixme": {
+        "layers": {
+            "0": {
+                "tagRenderings": {
+                    "building type": {
+                        "question": "Hva slags bygning er dette?"
+                    }
+                }
+            }
+        }
+    },
+    "hailhydrant": {
+        "title": "Hydranter, brannslukkere, brannstasjoner, og ambulansestasjoner."
+    },
+    "healthcare": {
+        "title": "Helsebehandling"
+    },
+    "hotels": {
+        "description": "På dette kartet finner du hoteller der du er",
+        "title": "Hoteller"
+    },
+    "indoors": {
+        "description": "Viser offentlig tilgjenglige innendørssteder",
+        "title": "Innendørs"
+    },
+    "kerbs_and_crossings": {
+        "description": "Fortauskanter og fotgjengerfelt.",
+        "title": "Fortauskanter og fotgjengerfelt."
+    },
+    "maps": {
+        "title": "Et kart over kart"
+    },
+    "nature": {
+        "title": "Inn i naturen"
+    },
+    "notes": {
+        "title": "Notater på OpenStreetMap"
+    },
+    "observation_towers": {
+        "description": "Offentlig tilgjengelige tårn for å nyte utsikten",
+        "shortDescription": "Offentlig tilgjengelige tårn for å nyte utsikten",
+        "title": "Observasjonstårn"
+    },
+    "onwheels": {
+        "layers": {
+            "4": {
+                "override": {
+                    "filter": {
+                        "0": {
+                            "options": {
+                                "1": {
+                                    "question": "Uten breddeinfo"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "19": {
+                "override": {
+                    "=title": {
+                        "render": "Statistikk"
+                    }
+                }
+            },
+            "20": {
+                "override": {
+                    "+tagRenderings": {
+                        "0": {
+                            "render": {
+                                "special": {
+                                    "text": "Importer"
+                                }
+                            }
+                        },
+                        "1": {
+                            "render": {
+                                "special": {
+                                    "message": "Legg til alle foreslåtte"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title": "På hjul"
+    },
+    "openwindpowermap": {
+        "description": "Et kart for visning og redigering av vindmøller.",
+        "title": "ÅpentVindkraftKart"
+    },
+    "parkings": {
+        "description": "Forskjellige parkeringsplasser",
+        "shortDescription": "Dette kartet viser forskjellige parkeringsplasser",
+        "title": "Parkering"
+    },
+    "personal": {
+        "title": "Personlig tema"
+    },
+    "pets": {
+        "layers": {
+            "1": {
+                "override": {
+                    "name": "Hundevennlige spisesteder"
+                }
+            },
+            "2": {
+                "override": {
+                    "name": "Hundevennlige butikker",
+                    "title": {
+                        "render": "Hundevennlige butikker"
+                    }
+                }
+            },
+            "6": {
+                "override": {
+                    "presets": {
+                        "0": {
+                            "title": "hundevennlig butikk"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "playgrounds": {
+        "shortDescription": "Et kart med lekeplasser",
+        "title": "Lekeplasser"
+    },
+    "postal_codes": {
+        "description": "Postnummer",
+        "layers": {
+            "0": {
+                "name": "postkoder",
+                "tagRenderings": {
+                    "postal_code": {
+                        "render": "Postnummeret er {postal_code}"
+                    }
+                },
+                "title": {
+                    "render": "Postkode {postal_code}"
+                }
+            },
+            "2": {
+                "name": "rådhus",
+                "title": {
+                    "render": "{name}-rådhuset"
+                }
+            }
+        },
+        "shortDescription": "Postkoder",
+        "title": "Postkoder"
+    },
+    "postboxes": {
+        "shortDescription": "Postbokser og postkontor",
+        "title": "Postboks og postkontor-kart"
+    },
+    "shops": {
+        "title": "Kart over åpne butikker"
+    },
+    "sidewalks": {
+        "description": "Eksperimentelt tema",
+        "layers": {
+            "0": {
+                "name": "Fortau",
+                "tagRenderings": {
+                    "streetname": {
+                        "render": "Denne gaten heter {name}"
+                    }
+                }
+            }
+        },
+        "title": "Fortau"
+    },
+    "stations": {
+        "layers": {
+            "3": {
+                "description": "Lag som viser togstasjoner",
+                "name": "Togstasjoner"
+            },
+            "16": {
+                "tagRenderings": {
+                    "type": {
+                        "mappings": {
+                            "2": {
+                                "then": "Dette er en papir-tidstabell"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title": "Togstasjoner"
+    },
+    "street_lighting": {
+        "description": "Alt om gatebelysning",
+        "layers": {
+            "1": {
+                "name": "Belyste gater",
+                "tagRenderings": {
+                    "lit": {
+                        "mappings": {
+                            "0": {
+                                "then": "Denne gaten er belyst"
+                            },
+                            "1": {
+                                "then": "Gate uten belysning"
+                            },
+                            "2": {
+                                "then": "Denne gaten er belyst nattestid"
+                            },
+                            "3": {
+                                "then": "Denne gaten er belyst døgnet rundt"
+                            }
+                        },
+                        "question": "Er denne gaten belyst?"
+                    }
+                },
+                "title": {
+                    "render": "Belyst gate"
+                }
+            },
+            "2": {
+                "name": "Alle gater",
+                "tagRenderings": {
+                    "lit": {
+                        "mappings": {
+                            "0": {
+                                "then": "Denne gaten er belyst"
+                            },
+                            "1": {
+                                "then": "Denne gaten er ikke belyst"
+                            },
+                            "2": {
+                                "then": "Denne gaten er belyst nattestid"
+                            },
+                            "3": {
+                                "then": "Denne gaten er belyst døgnet rundt"
+                            }
+                        },
+                        "question": "Er denne gaten belyst?"
+                    }
+                },
+                "title": {
+                    "render": "Gate"
+                }
+            }
+        },
+        "title": "Gatebelysning"
+    },
+    "surveillance": {
+        "description": "Her finner du overvåkningskameraer.",
+        "shortDescription": "Overvåkningskameraer og andre typer overvåkning",
+        "title": "Overvåkning under overvåkning"
+    },
+    "toilets": {
+        "description": "Et kart over offentlige toaletter",
+        "title": "Åpent toalettkart"
+    },
+    "transit": {
+        "description": "Planlegg turen din med offentlig transport",
+        "title": "Bussruter"
+    },
+    "trees": {
+        "description": "Kartlegg trærne.",
+        "shortDescription": "Kartlegg alle trærne",
+        "title": "Trær"
+    },
+    "walls_and_buildings": {
+        "title": "Murer og bygninger"
+    },
+    "waste": {
+        "title": "Avfall"
+    },
+    "waste_basket": {
+        "shortDescription": "Oversikt over søppelkurver",
+        "title": "Søppelkurv"
+    }
+}

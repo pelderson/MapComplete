@@ -1,0 +1,141 @@
+{
+    "centerMessage": {
+        "loadingData": "Ŝargante datenojn…",
+        "ready": "Farite!"
+    },
+    "delete": {
+        "cancel": "Nuligi",
+        "explanations": {},
+        "reasons": {}
+    },
+    "favourite": {
+        "reload": "Reŝargi la datenojn"
+    },
+    "general": {
+        "add": {
+            "import": {},
+            "title": "Enmeti novan punkton?"
+        },
+        "apply_button": {},
+        "attribution": {
+            "iconAttribution": {
+                "title": "Uzitaj piktogramoj"
+            }
+        },
+        "backgroundMap": "Fona mapo",
+        "cancel": "Nuligi",
+        "download": {
+            "exporting": "Elportante…"
+        },
+        "histogram": {},
+        "layerSelection": {},
+        "levelSelection": {},
+        "loading": "Ŝargante…",
+        "loginWithOpenStreetMap": "Saluti per OpenStreetMap",
+        "morescreen": {},
+        "noNameCategory": "{category} sen nomo",
+        "openTheMap": "Malfermi la mapon",
+        "opening_hours": {
+            "openTill": "ĝis",
+            "opensAt": "ekde",
+            "ph_closed": "fermita",
+            "ph_not_known": " ",
+            "ph_open": "malfermita"
+        },
+        "pdf": {
+            "attr": "Mapaj datenoj © Kontribuintoj al OpenStreetMap, reuzeblaj laŭ ODbL",
+            "attrBackground": "Fona tavolo: {background}",
+            "generatedWith": "Generita per MapComplete.osm.be/{layoutid}",
+            "versionInfo": "v{version} - generita je {date}"
+        },
+        "pickLanguage": "Elektu lingvon: ",
+        "questions": {
+            "websiteIs": "Retejo: <a href=\"{website}\" target=\"_blank\">{website}</a>"
+        },
+        "returnToTheMap": "Reen al la mapo",
+        "save": "Konservi",
+        "search": {
+            "error": "Io fiaskis…",
+            "nothing": "Nenio troviĝis…",
+            "search": "Serĉi lokon",
+            "searching": "Serĉante…"
+        },
+        "sharescreen": {
+            "editThisTheme": "Modifi ĉi tiun etoson",
+            "fsSearch": "Ŝalti la serĉbreton",
+            "fsUserbadge": "Ŝalti la salutbutonon"
+        },
+        "skip": "Preterpasi ĉi tiun demandon",
+        "weekdays": {
+            "abbreviations": {
+                "friday": "ve",
+                "monday": "lu",
+                "saturday": "sa",
+                "sunday": "di",
+                "thursday": "ĵa",
+                "tuesday": "ma",
+                "wednesday": "me"
+            },
+            "friday": "vendredo",
+            "monday": "lundo",
+            "saturday": "sabato",
+            "sunday": "dimanĉo",
+            "thursday": "ĵaŭdo",
+            "tuesday": "mardo",
+            "wednesday": "merkredo"
+        },
+        "welcomeExplanation": {},
+        "wikipedia": {
+            "loading": "Ŝargante Vikipedion…",
+            "noResults": "Nenio troviĝis pri <i>{search}</i>",
+            "previewbox": {},
+            "searchWikidata": "Serĉi Vikidatumojn",
+            "wikipediaboxTitle": "Vikipedio"
+        }
+    },
+    "image": {
+        "addPicture": "Aldoni bildon",
+        "dontDelete": "Nuligi",
+        "nearbyPictures": {},
+        "pleaseLogin": "Bonvolu saluti por aldoni bildon",
+        "uploadingMultiple": "Alŝutante {count} bildojn…",
+        "uploadingPicture": "Alŝutante vian bildon…"
+    },
+    "importInspector": {},
+    "importLayer": {},
+    "index": {
+        "title": "Bonvenon al MapComplete"
+    },
+    "move": {
+        "inviteToMove": {},
+        "reasons": {}
+    },
+    "multi_apply": {},
+    "notes": {},
+    "privacy": {},
+    "reviews": {
+        "saving_review": "Konservante…",
+        "title": "{count} recenzoj",
+        "title_singular": "Unu recenzo"
+    },
+    "split": {},
+    "translations": {},
+    "validation": {
+        "color": {},
+        "date": {},
+        "direction": {},
+        "distance": {},
+        "email": {},
+        "float": {},
+        "int": {},
+        "nat": {},
+        "opening_hours": {},
+        "pfloat": {},
+        "phone": {},
+        "pnat": {},
+        "string": {},
+        "text": {},
+        "url": {},
+        "wikidata": {}
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "id": "boomgaarden",
+  "id": "fruit_trees",
   "title": {
     "nl": "Open Boomgaardenkaart"
   },
@@ -9,17 +9,12 @@
   "description": {
     "nl": "Op deze kaart vindt je boomgaarden en fruitbomen"
   },
-  "language": [
-    "nl"
-  ],
-  "maintainer": "",
-  "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Low_Hanging_Fruit_-_The_Noun_Project.svg",
-  "version": "0",
+  "icon": "./assets/themes/fruit_trees/fruit_tree.svg",
   "startLat": 0,
   "startLon": 0,
   "startZoom": 1,
-  "widenFactor": 0.001,
-  "socialImage": "",
+  "widenFactor": 2,
+  "hideFromOverview": true,
   "layers": [
     {
       "id": "orchards",
@@ -27,30 +22,21 @@
         "nl": "Boomgaarden"
       },
       "minzoom": 12,
-      "overpassTags": {
-        "and": [
-          "landuse=orchard"
-        ]
+      "source": {
+        "osmTags": {
+          "and": [
+            "landuse=orchard"
+          ]
+        }
       },
       "title": {
         "render": {
           "nl": "Boomgaard"
         }
       },
-      "tagRenderings": ["images"],
-      "hideUnderlayingFeaturesMinPercentage": 0,
-      "icon": {
-        "render": "./assets/themes/buurtnatuur/forest.svg"
-      },
-      "width": {
-        "render": "8"
-      },
-      "iconSize": {
-        "render": "40,40,center"
-      },
-      "color": {
-        "render": "#00f"
-      },
+      "tagRenderings": [
+        "images"
+      ],
       "presets": [
         {
           "tags": [
@@ -58,11 +44,25 @@
             "fixme=Added with mapcomplete - geometry still to draw"
           ],
           "title": {
-            "nl": "Boomgaard"
+            "nl": "een boomgaard"
           },
           "description": {
             "nl": "Voeg een boomgaard toe (als punt - omtrek nog te tekenen)"
           }
+        }
+      ],
+      "mapRendering": [
+        {
+          "icon": "./assets/themes/buurtnatuur/forest.svg",
+          "iconSize": "40,40",
+          "location": [
+            "point"
+          ],
+          "anchor": "center"
+        },
+        {
+          "color": "#00f",
+          "width": "8"
         }
       ]
     },
@@ -72,10 +72,12 @@
         "nl": "Boom"
       },
       "minzoom": 12,
-      "overpassTags": {
-        "and": [
-          "natural=tree"
-        ]
+      "source": {
+        "osmTags": {
+          "and": [
+            "natural=tree"
+          ]
+        }
       },
       "title": {
         "render": {
@@ -95,7 +97,8 @@
           },
           "freeform": {
             "key": "species:nl"
-          }
+          },
+          "id": "fruitboom-species:nl"
         },
         {
           "render": {
@@ -111,7 +114,8 @@
             "and": [
               "species:nl~*"
             ]
-          }
+          },
+          "id": "fruitboom-taxon"
         },
         {
           "render": {
@@ -122,7 +126,8 @@
           },
           "freeform": {
             "key": "description"
-          }
+          },
+          "id": "fruitboom-description"
         },
         {
           "render": {
@@ -133,36 +138,37 @@
           },
           "freeform": {
             "key": "ref"
-          }
+          },
+          "id": "fruitboom-ref"
         }
       ],
-      "hideUnderlayingFeaturesMinPercentage": 0,
-      "icon": {
-        "render": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Low_Hanging_Fruit_-_The_Noun_Project.svg"
-      },
-      "width": {
-        "render": "8"
-      },
-      "iconSize": {
-        "render": "40,40,center"
-      },
-      "color": {
-        "render": "#00f"
-      },
       "presets": [
         {
           "tags": [
             "natural=tree"
           ],
           "title": {
-            "nl": "Boom"
+            "nl": "een boom"
           },
           "description": {
             "nl": "Voeg hier een boom toe"
           }
         }
+      ],
+      "mapRendering": [
+        {
+          "icon": "./assets/themes/fruit_trees/fruit_tree.svg",
+          "iconSize": "40,40",
+          "location": [
+            "point"
+          ],
+          "anchor": "center"
+        },
+        {
+          "color": "#00f",
+          "width": "8"
+        }
       ]
     }
-  ],
-  "roamingRenderings": []
+  ]
 }

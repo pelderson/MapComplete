@@ -1,0 +1,111 @@
+{
+    "centerMessage": {
+        "ready": "Valmis!"
+    },
+    "delete": {
+        "explanations": {},
+        "reasons": {}
+    },
+    "favourite": {},
+    "general": {
+        "add": {
+            "import": {}
+        },
+        "apply_button": {},
+        "attribution": {
+            "iconAttribution": {}
+        },
+        "backgroundMap": "Taustakartta",
+        "cancel": "Peruuta",
+        "download": {},
+        "histogram": {},
+        "layerSelection": {},
+        "levelSelection": {},
+        "loginWithOpenStreetMap": "Kirjaudu sisään OpenStreetMapilla",
+        "morescreen": {},
+        "number": "numero",
+        "opening_hours": {
+            "ph_closed": "suljettu",
+            "ph_not_known": " ",
+            "ph_open": "avattu"
+        },
+        "pdf": {},
+        "pickLanguage": "Valitse kieli: ",
+        "questions": {
+            "websiteIs": "Verkkosivusto: <a href=\"{website}\" target=\"_blank\">{website}</a>"
+        },
+        "save": "Tallenna",
+        "search": {
+            "searching": "Etsitään…"
+        },
+        "sharescreen": {
+            "thanksForSharing": "Kiitos jakamisesta!"
+        },
+        "skip": "Ohita tämä kysymys",
+        "weekdays": {
+            "abbreviations": {
+                "friday": "Pe",
+                "monday": "Ma",
+                "saturday": "La",
+                "sunday": "Su",
+                "thursday": "To",
+                "tuesday": "Ti",
+                "wednesday": "Ke"
+            },
+            "friday": "Perjantai",
+            "monday": "Maanantai",
+            "saturday": "Lauantai",
+            "sunday": "Sunnuntai",
+            "thursday": "Torstai",
+            "tuesday": "Tiistai",
+            "wednesday": "Keskiviikko"
+        },
+        "welcomeExplanation": {},
+        "wikipedia": {
+            "previewbox": {}
+        }
+    },
+    "image": {
+        "addPicture": "Lisää kuva",
+        "doDelete": "Poista kuva",
+        "dontDelete": "Peruuta",
+        "isDeleted": "Poistettu",
+        "nearbyPictures": {}
+    },
+    "importInspector": {},
+    "importLayer": {},
+    "index": {
+        "title": "Tervetuloa MapCompleteen"
+    },
+    "move": {
+        "inviteToMove": {},
+        "reasons": {}
+    },
+    "multi_apply": {},
+    "notes": {},
+    "privacy": {},
+    "reviews": {
+        "title": "{count} arvostelua",
+        "title_singular": "Yksi arvostelu"
+    },
+    "split": {},
+    "translations": {},
+    "validation": {
+        "color": {},
+        "date": {},
+        "direction": {},
+        "distance": {},
+        "email": {},
+        "float": {},
+        "int": {},
+        "nat": {},
+        "opening_hours": {},
+        "pfloat": {},
+        "phone": {},
+        "pnat": {},
+        "string": {},
+        "text": {},
+        "url": {},
+        "wikidata": {}
+    }
+}

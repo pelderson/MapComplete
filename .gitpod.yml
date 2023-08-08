@@ -1,0 +1,20 @@
+tasks:
+  - init: npm run init
+    command: npm run start
+    name: Initialize and start MapComplete
+  - name: Generate Layeroverview
+    command: npm run generate:layeroverview
+
+ports:
+  - name: MapComplete Website
+    port: 1234
+    onOpen: open-browser
+
+vscode:
+  extensions:
+    - "esbenp.prettier-vscode"
+    - "eamodio.gitlens"
+    - "github.vscode-pull-request-github"
+    - "svelte.svelte-vscode"
+    - "bradlc.vscode-tailwindcss"
+    - "editorconfig.editorconfig"

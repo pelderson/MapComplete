@@ -5,10 +5,36 @@ node_modules
 scratch
 assets/editor-layer-index.json
 assets/generated/*
-/*.webmanifest
+src/assets/generated/
+public/*.webmanifest
 /*.html
 !/index.html
+!/customGenerator.html
 .parcel-cache
 Docs/Tools/stats.*.json
 Docs/Tools/stats.csv
+missing_translations.txt
+*.swp
+.DS_Store
+Svg.ts
+data/
+Folder.DotSettings.user
+index_*.ts
+.~lock.*
+*.doctest.ts
+service-worker.js
 
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+public/*.webmanifest
+public/assets/generated/

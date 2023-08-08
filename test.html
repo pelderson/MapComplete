@@ -3,22 +3,40 @@
 <head>
     <title>Small tests</title>
     <link href="index.css" rel="stylesheet"/>
-    <link href="css/slideshow.css" rel="stylesheet"/>
-    <link href="css/tabbedComponent.css" rel="stylesheet"/>
-    <link href="css/openinghourstable.css" rel="stylesheet"/>
-    <link href="css/tagrendering.css" rel="stylesheet"/>
+    <link href="./index.css" rel="stylesheet"/>
+    <link href="./css/tabbedComponent.css" rel="stylesheet"/>
+    <link href="./css/mobile.css" rel="stylesheet"/>
+    <link href="./css/openinghourstable.css" rel="stylesheet"/>
+    <link href="./css/tagrendering.css" rel="stylesheet"/>
+    <link href="./css/index-tailwind-output.css" rel="stylesheet"/>
+    <link href="./css/wikipedia.css" rel="stylesheet"/>
     <link href="css/ReviewElement.css" rel="stylesheet"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
+    <meta content="website" property="og:type">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
 
 </head>
 <body>
 
-    <div id="maindiv">'maindiv' not attached</div>
+<div id="maindiv" class="w-full">'maindiv' not attached</div>
 <div id="extradiv">'extradiv' not attached</div>
-<script src="./test.ts"></script>
-    <iframe src="http://127.0.0.1:1234/index.html" height="500px" width="600px"></iframe>
-    <iframe src="http://127.0.0.1:1234/index.html?layout=bookcases&fs-userbadge=false&fs-search=false&fs-welcome-message=false&fs-layers=false&fs-geolocation=false" height="500px" width="600px"></iframe>
+
+<script type="module" src="./src/test.ts"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('SW registration successful');
+                },
+                err => {
+                    console.error('SW registration failed', err)
+                });
+        } else {
+            console.error("Service workers are not supported")
+        }
+    });
+</script>
 </body>
 </html>
